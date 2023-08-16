@@ -47,15 +47,12 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
-" Plug 'Valloric/YouCompleteMe'
-" Use release branch (recommended)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 let g:make = 'gmake'
 if exists('make')
         let g:make = 'make'
 endif
-Plug 'Shougo/vimproc.vim', {'do': g:make}
 
 "" Vim-Session
 Plug 'xolox/vim-misc'
